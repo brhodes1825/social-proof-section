@@ -35,7 +35,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .card-top {
@@ -48,12 +48,12 @@ body {
 .top-left {
   height: 100%;
   width: 50%;
-  padding: 1rem 3rem 1rem .5rem;
+  padding: 1rem 4rem 1.5rem .5rem;
   border: 1px solid black;
 }
 
 .top-left p:first-of-type {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: var(--VeryDarkMagenta);
 }
@@ -61,6 +61,7 @@ body {
 .top-left p:last-of-type {
   font-size: 0.938rem;
   color: var(--VeryDarkMagenta);
+  line-height: .5rem;
 }
 
 .top-right {
