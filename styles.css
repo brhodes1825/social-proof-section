@@ -42,12 +42,14 @@ body {
   width: 50rem;
   height: 50%;
   display: flex;
+  border: 1px solid black;
 }
 
 .top-left {
   height: 100%;
   width: 50%;
   padding: 1rem 3rem 1rem .5rem;
+  border: 1px solid black;
 }
 
 .top-left p:first-of-type {
@@ -61,10 +63,17 @@ body {
   color: var(--VeryDarkMagenta);
 }
 
+.top-right {
+  height: 100%;
+  width: 50%;
+  border: 1px solid black;
+}
+
 .card-bottom {
   width: 50rem;
   height: 50%;
   display: flex;
+  border: 1px solid black;
 }
 
 
