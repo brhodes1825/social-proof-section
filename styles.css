@@ -1,1 +1,52 @@
+@font-face {
+  font-family: "League Spartan";
+  src: url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+}
+
+:root {
+  /* Primary */
+--VeryDarkMagenta: hsl(300, 43%, 22%);
+--SoftPink: hsl(333, 80%, 67%);
+
+  /* Neutral */
+--DarkGrayingMagenta: hsl(303, 10%, 53%);
+--LightGrayishMagenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("bg-pattern-top-desktop.svg"), url("bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  font-family: "League Spartan";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top {
+  width: 50rem;
+  height: 50%;
+  display: flex;
+}
+
+.card-bottom {
+  width: 50rem;
+  height: 50%;
+  display: flex;
+}
+
 
