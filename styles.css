@@ -35,12 +35,30 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  border: 2px solid black;
 }
 
 .card-top {
   width: 50rem;
   height: 50%;
   display: flex;
+}
+
+.top-left {
+  height: 100%;
+  width: 50%;
+  padding: 1rem 3rem 1rem .5rem;
+}
+
+.top-left p:first-of-type {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--VeryDarkMagenta);
+}
+
+.top-left p:last-of-type {
+  font-size: 0.938rem;
+  color: var(--VeryDarkMagenta);
 }
 
 .card-bottom {
