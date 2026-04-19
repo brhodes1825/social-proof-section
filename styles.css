@@ -123,6 +123,13 @@ body {
   display: flex;
   flex-direction: column;
   padding: 2rem 1rem;
+  border-radius: .5rem;
+}
+
+.buyer-info img {
+  border-radius: 50%;
+  height: 3.125rem;
+  width: 3.125rem;
 }
 
 .buyer-info:first-of-type {
@@ -132,9 +139,33 @@ body {
   margin-left: .5rem;
 }
 
+.buyer-info:nth-of-type(2) {
+  margin-top: 3rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 0;
+}
+
+.buyer-info:last-of-type {
+  margin-top: 4rem;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+}
+
 .name {
   display: flex;
   flex-direction: column;
+}
+
+.name p:first-of-type {
+  font-size: 1rem;
+  color: var(--White);
+}
+
+.name p:last-of-type {
+  font-size: 0.938rem;
+  color: var(--SoftPink);
 }
 
 .buyer1 {
