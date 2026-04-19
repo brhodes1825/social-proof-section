@@ -124,6 +124,7 @@ body {
   flex-direction: column;
   padding: 2rem 1rem;
   border-radius: .5rem;
+  width: 21.875rem;
 }
 
 .buyer-info img {
@@ -166,6 +167,11 @@ body {
 .name p:last-of-type {
   font-size: 0.938rem;
   color: var(--SoftPink);
+}
+
+.buyer-quote {
+  color: var(--White);
+  text-align: justify;
 }
 
 .buyer1 {
