@@ -63,6 +63,7 @@ body {
   font-size: 0.938rem;
   color: var(--LightGrayishMagenta);
   line-height: 1.3rem;
+  margin-bottom: 2rem;
 }
 
 .top-right {
@@ -77,6 +78,13 @@ body {
   padding: .938rem 1rem;
   color: var(--VeryDarkMagenta);
   font-size: .938rem;
+}
+
+.rating:first-of-type {
+  margin-top: 2rem;
+  margin-right: 4rem;
+  margin-bottom: .5rem;
+  margin-left: 1rem;
 }
 
 .stars {
