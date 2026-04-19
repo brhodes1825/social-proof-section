@@ -9,7 +9,7 @@
 --SoftPink: hsl(333, 80%, 67%);
 
   /* Neutral */
---DarkGrayingMagenta: hsl(303, 10%, 53%);
+--DarkGrayishMagenta: hsl(303, 10%, 53%);
 --LightGrayishMagenta: hsl(300, 24%, 96%);
 --White: hsl(0, 0%, 100%);
 }
@@ -54,13 +54,13 @@ body {
 
 .top-left p:first-of-type {
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--VeryDarkMagenta);
   margin-bottom: 1.25rem;
 }
 
 .top-left p:last-of-type {
-  font-size: 0.938rem;
+  font-size: 1rem;
   color: var(--DarkGrayishMagenta);
   line-height: 1.3rem;
   margin-bottom: 2rem;
@@ -78,13 +78,31 @@ body {
   padding: .938rem 1rem;
   color: var(--VeryDarkMagenta);
   font-size: .938rem;
+  font-weight: 500;
 }
 
 .rating:first-of-type {
   margin-top: 2rem;
-  margin-right: 4rem;
+  margin-right: 6rem;
   margin-bottom: .5rem;
   margin-left: 1rem;
+  border-radius: 1rem;
+}
+
+.rating:nth-of-type(2) {
+  margin-top: 0;
+  margin-right: 4rem;
+  margin-bottom: .5rem;
+  margin-left: 2rem;
+  border-radius: 1rem;  
+}
+
+.rating:last-of-type {
+  margin-top: 0;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  border-radius: 1rem;
 }
 
 .stars {
