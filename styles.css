@@ -61,7 +61,7 @@ body {
 
 .top-left p:last-of-type {
   font-size: 0.938rem;
-  color: var(--LightGrayishMagenta);
+  color: var(--DarkGrayishMagenta);
   line-height: 1.3rem;
   margin-bottom: 2rem;
 }
