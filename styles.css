@@ -79,22 +79,21 @@ body {
   color: var(--VeryDarkMagenta);
   font-size: .938rem;
   font-weight: 500;
+  border-radius: .5rem;
 }
 
 .rating:first-of-type {
   margin-top: 2rem;
   margin-right: 6rem;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
   margin-left: 1rem;
-  border-radius: 1rem;
 }
 
 .rating:nth-of-type(2) {
   margin-top: 0;
   margin-right: 4rem;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
   margin-left: 2rem;
-  border-radius: 1rem;  
 }
 
 .rating:last-of-type {
@@ -102,7 +101,6 @@ body {
   margin-right: 2rem;
   margin-bottom: 2rem;
   margin-left: 3rem;
-  border-radius: 1rem;
 }
 
 .stars {
@@ -120,4 +118,36 @@ body {
   border: 1px solid black;
 }
 
+.buyer-info {
+  background-color: var(--VeryDarkMagenta);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
 
+.buyer-info:first-of-type {
+  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+  margin-left: .5rem;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.buyer1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.buyer2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.buyer3 {
+  display: flex;
+  flex-direction: row;
+}
