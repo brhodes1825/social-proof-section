@@ -53,21 +53,37 @@ body {
 }
 
 .top-left p:first-of-type {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   color: var(--VeryDarkMagenta);
 }
 
 .top-left p:last-of-type {
   font-size: 0.938rem;
-  color: var(--VeryDarkMagenta);
-  line-height: .5rem;
+  color: var(--DarkGrayishMagenta);
+  line-height: 1.3rem;
 }
 
 .top-right {
   height: 100%;
   width: 50%;
   border: 1px solid black;
+}
+
+.rating {
+  display: flex;
+  background-color: var(--LightGrayishMagenta);
+  padding: .938rem 1rem;
+  color: var(--VeryDarkMagenta);
+  font-size: .938rem;
+}
+
+.stars {
+  margin-right: .25rem;
+}
+
+.stars:last-of-type {
+  margin-right: 1rem;
 }
 
 .card-bottom {
