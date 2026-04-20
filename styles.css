@@ -170,7 +170,7 @@ body {
 
 .buyer-quote {
   color: var(--LightGrayishMagenta);
-  text-align: justify;
+  text-align: start;
 /*  margin: 0 1.5rem; */
 }
 
