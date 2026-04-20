@@ -114,6 +114,7 @@ body {
   height: 50%;
   display: flex;
   border: 1px solid black;
+  padding: 2rem 1rem;
 }
 
 .buyer-info {
