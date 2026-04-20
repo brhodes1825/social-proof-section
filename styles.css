@@ -160,6 +160,7 @@ body {
 
 .name p:first-of-type {
   font-size: 1rem;
+  font-weight: 700;
   color: var(--White);
 }
 
@@ -171,7 +172,6 @@ body {
 .buyer-quote {
   color: var(--LightGrayishMagenta);
   text-align: start;
-/*  margin: 0 1.5rem; */
 }
 
 .buyer1, .buyer2, .buyer3 {
