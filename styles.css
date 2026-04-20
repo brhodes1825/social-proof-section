@@ -35,14 +35,12 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
 }
 
 .card-top {
   width: 62.5rem;
   height: 50%;
   display: flex;
-  border: 1px solid black;
 }
 
 .top-left {
@@ -113,7 +111,6 @@ body {
   width: 62.5rem;
   height: 50%;
   display: flex;
-  border: 1px solid black;
   padding: 1rem;
 }
 
