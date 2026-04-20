@@ -169,6 +169,7 @@ body {
 .buyer-quote {
   color: var(--LightGrayishMagenta);
   text-align: start;
+  line-height: 1.3rem;
 }
 
 .buyer1, .buyer2, .buyer3 {
