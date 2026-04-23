@@ -120,7 +120,7 @@ body {
   flex-direction: column;
   padding: 2rem 1.5rem;
   border-radius: .5rem;
-  width: 21.875rem;
+/*  width: 21.875rem; */
 }
 
 .buyer-info img {
@@ -177,4 +177,19 @@ body {
   align-items: center;
   gap: 1rem;
   margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .card-top {
+    width: 20rem;
+    height: 50%;
+    flex-direction: column;
+  }
+
+  .card-bottom {
+    width: 20rem;
+    height: 50%;
+    flex-direction: column;
+  }
+
 }
