@@ -184,7 +184,7 @@ body {
   body {
   /*  flex-direction: column; */
     align-items: normal;
-    justify-content: normal;
+    justify-content: center;
     background-image: url("bg-pattern-top-mobile.svg"), url("bg-pattern-bottom-mobile.svg");
     background-position: 0% 0%, 100% 100%;
   }
@@ -193,7 +193,7 @@ body {
     width: 25rem;
     height: 50%;
     flex-direction: column;
-    padding: 0;
+    padding: 2rem 1rem;
   }
   
   .top-left {
