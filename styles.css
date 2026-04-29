@@ -194,8 +194,8 @@ body {
     padding: 1rem;
   }
   
-  .top-left {
-/*    height: 50%; */
+/*  .top-left {
+/*    height: 50%;
     width: 100%;
     padding: 0;
     margin-top: 2rem;
@@ -208,16 +208,16 @@ body {
   }
 
   .top-left p:last-of-type {
-/*    font-size: 1rem; */
+/*    font-size: 1rem;
     margin-bottom: .5rem;
     text-align: center;
   }
   
   .top-right {
- /*   height: 50%; */
+ /*   height: 50%;
     width: 100%;
- /*   margin: 1rem; */
-  }
+ /*   margin: 1rem;
+  } */
 
   .rating {
     flex-direction: column;
@@ -228,7 +228,7 @@ body {
     gap: .5rem;
   }
 
-  .rating:first-of-type {
+/*  .rating:first-of-type {
     margin: 0 .5rem .5rem .5rem;
   }
 
@@ -238,7 +238,7 @@ body {
 
   .rating:last-of-type {
     margin: 0 .5rem .5rem .5rem;
-  }
+  } */
 
   .card-bottom {
     width: 25rem;
