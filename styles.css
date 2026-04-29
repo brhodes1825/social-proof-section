@@ -184,46 +184,60 @@ body {
   body {
     flex-direction: column;
     background-image: url("bg-pattern-top-mobile.svg"), url("bg-pattern-bottom-mobile.svg");
+    background-position: right 0vw bottom 0vh, left 0vw top 0vh;
   }
   
   .card-top {
-    width: 20rem;
+    width: 25rem;
     height: 50%;
     flex-direction: column;
   }
   
-.top-left {
-  height: 50%;
-  width: 100%;
-  padding: 2rem .5rem 1rem .5rem;
-}
+  .top-left {
+    height: 50%;
+    width: 100%;
+    padding: 2rem .5rem 1rem .5rem;
+  }
 
-.top-left p:first-of-type {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
+  .top-left p:first-of-type {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
 
-.top-left p:last-of-type {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
+  .top-left p:last-of-type {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
   
-.top-right {
-  height: 50%;
-  width: 100%;
-}
+  .top-right {
+    height: 50%;
+    width: 100%;
+  }
 
-.rating {
-  flex-direction: column;
-  font-size: .6rem;
-  border-radius: .5rem;
-  margin: 1rem;
-  width: 100%;
-  padding: 1rem;
-}
+  .rating {
+    flex-direction: column;
+    font-size: .6rem;
+    border-radius: .5rem;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  
+  .rating:first-of-type {
+    margin: 1rem;
+  }
+
+  .rating:nth-of-type(2) {
+    margin: 1rem;
+  }
+
+  .rating:last-of-type {
+    margin: 1rem;
+  }
 
   .card-bottom {
-    width: 20rem;
+    width: 25rem;
     height: 50%;
     flex-direction: column;
   }
