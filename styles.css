@@ -184,7 +184,7 @@ body {
   body {
     flex-direction: column;
     background-image: url("bg-pattern-top-mobile.svg"), url("bg-pattern-bottom-mobile.svg");
-    background-position: right 0vw bottom 0vh, left 0vw top 0vh;
+    background-position: 0% 0%, 100% 100%;
   }
   
   .card-top {
