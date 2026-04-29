@@ -190,7 +190,7 @@ body {
   
   .card-top {
     width: 25rem;
-    height: 50%;
+    min-height: 50%;
     flex-direction: column;
     padding: 1rem;
   }
@@ -208,7 +208,7 @@ body {
 
   .top-left p:last-of-type {
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     text-align: center;
   }
   
@@ -228,15 +228,15 @@ body {
   }
 
   .rating:first-of-type {
-    margin: .5rem;
+    margin: 0 .5rem .5rem .5rem;
   }
 
   .rating:nth-of-type(2) {
-    margin: .5rem;
+    margin: 0 .5rem .5rem .5rem;
   }
 
   .rating:last-of-type {
-    margin: .5rem;
+    margin: 0 .5rem .5rem .5rem;
   }
 
   .card-bottom {
@@ -257,5 +257,9 @@ body {
   .buyer-info:last-of-type {
     margin: .5rem;
   }
+
+  .buyer-quote {
+    font-size: 1rem;
+}
 
 }
