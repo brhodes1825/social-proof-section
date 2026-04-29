@@ -195,14 +195,14 @@ body {
   }
   
   .top-left {
-    height: 50%; 
+/*    height: 50%; */
     width: 100%;
     padding: 0;
     margin-top: 2rem;
   }
 
   .top-left p:first-of-type {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1rem;
     text-align: center;
   }
@@ -214,9 +214,9 @@ body {
   }
   
   .top-right {
-    height: 50%; 
+ /*   height: 50%; */
     width: 100%;
-    margin: 1rem;
+ /*   margin: 1rem; */
   }
 
   .rating {
