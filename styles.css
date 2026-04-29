@@ -191,7 +191,7 @@ body {
     width: 25rem;
     height: 50%;
     flex-direction: column;
-  /*  padding: 2rem .5rem 1rem .5rem; */
+    padding: 0;
   }
   
   .top-left {
@@ -202,11 +202,13 @@ body {
   .top-left p:first-of-type {
     font-size: 2rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
 
   .top-left p:last-of-type {
     font-size: 1rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
   
   .top-right {
@@ -216,7 +218,7 @@ body {
 
   .rating {
     flex-direction: column;
-    font-size: .7rem;
+    font-size: .8rem;
     border-radius: .5rem;
     width: 100%;
     padding: .5rem;
@@ -233,13 +235,14 @@ body {
   }
 
   .rating:last-of-type {
-    margin: .5rem 0 0 0;
+    margin: .5rem .5rem 1 .5rem;
   }
 
   .card-bottom {
     width: 25rem;
     height: 50%;
     flex-direction: column;
+    padding: 0;
   }
 
   .buyer-info:first-of-type {
