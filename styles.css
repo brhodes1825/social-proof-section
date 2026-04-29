@@ -188,7 +188,7 @@ body {
   }
   
   .card-top {
-    width: 25rem;
+    width: 35rem;
  /*   height: 50%; */
     flex-direction: column;
     padding: 1rem;
@@ -239,7 +239,7 @@ body {
   }
 
   .card-bottom {
-    width: 25rem;
+    width: 35rem;
 /*    height: 50%; */
     flex-direction: column;
 /*    padding: 1rem; */
