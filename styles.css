@@ -183,7 +183,7 @@ body {
 
   body {
   /*  flex-direction: column; */
-    align-items: normal;
+  /*  align-items: normal; */
     background-image: url("bg-pattern-top-mobile.svg"), url("bg-pattern-bottom-mobile.svg");
     background-position: 0% 0%, 100% 100%;
   }
@@ -196,7 +196,7 @@ body {
   }
   
   .top-left {
-  /*  height: 50%; */
+    height: 50%;
     width: 100%;
   }
 
@@ -213,7 +213,7 @@ body {
   }
   
   .top-right {
-/*    height: 50%; */
+    height: 50%; 
     width: 100%;
   }
 
@@ -236,18 +236,18 @@ body {
   }
 
   .rating:last-of-type {
-    margin: .5rem .5rem 1rem .5rem;
+    margin: .5rem;
   }
 
   .card-bottom {
     width: 25rem;
-    height: 50%;
+    max-height: 50%;
     flex-direction: column;
-    padding: 0;
+    padding: 1rem;
   }
 
   .buyer-info:first-of-type {
-    margin: 0 .5rem .5rem .5rem;
+    margin: .5rem;
   }
 
   .buyer-info:nth-of-type(2) {
