@@ -188,18 +188,15 @@ body {
   }
 
   .container {
-    height: 80rem;
+    height: auto;
   }
   
   .card-top {
     width: 25rem;
-    height: 40rem; 
+    height: 50%; 
     flex-direction: column;
     padding: 1rem;
-  }
-
-  .stat {
-    width: 100%;
+    border: 1px solid black;
   }
   
   .top-left {
@@ -252,8 +249,9 @@ body {
 
   .card-bottom {
     width: 25rem;
-    height: 40rem;
+    height: 50%;
     flex-direction: column;
+    border: 1px solid black;
 /*    padding: 1rem; */
   }
 
