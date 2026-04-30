@@ -189,9 +189,9 @@ body {
     background-position: 0% 0%, 100% 100%;
   }
 
-  .container {
+/*  .container {
     height: auto;
-  }
+  } */
   
   .card-top {
     width: 25rem;
@@ -205,19 +205,18 @@ body {
     height: 50%;
     width: 100%;
     padding: 0;
-    margin-top: 1rem;
   } 
 
   .top-left p:first-of-type {
-    font-size: 1rem;
-    margin: 1rem;
+    font-size: 1.5rem;
+    margin: 1rem 1.5rem;
     text-align: center;
     width: 100%;
   }
 
   .top-left p:last-of-type {
     font-size: .85rem;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
     text-align: center;
     width: 100%;
   }
@@ -225,36 +224,45 @@ body {
   .top-right {
     height: 50%;
     width: 100%;
-    margin: 1rem;
+ /*   margin: 1rem; */
   }
 
   .rating {
     flex-direction: column;
     font-size: .8rem;
-    width: 80%;
-    padding: .5rem;
+    width: 100%;
+    padding: .6rem 1rem;
     text-align: center;
-    gap: .5rem;
+    gap: .6rem;
   }
 
   .rating:first-of-type {
-    margin: 0 .5rem .5rem .5rem;
+    margin-top: .5rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
   }
 
   .rating:nth-of-type(2) {
-    margin: 0 .5rem .5rem .5rem;
+    margin-top: .5rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
   }
 
   .rating:last-of-type {
-    margin: 0 .5rem .5rem .5rem;
+    margin-top: .5rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
   } 
 
   .card-bottom {
     width: 25rem;
     height: 50%;
     flex-direction: column;
+    padding: 1rem; 
     border: 1px solid black;
-/*    padding: 1rem; */
   }
 
   .buyer-info {
@@ -262,19 +270,41 @@ body {
 }
 
   .buyer-info:first-of-type {
-    margin: .5rem;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: .5rem;
+    margin-left: 0;
   }
 
   .buyer-info:nth-of-type(2) {
-    margin: .5rem;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: .5rem;
+    margin-left: 0;
   }
 
   .buyer-info:last-of-type {
-    margin: .5rem;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: .5rem;
+    margin-left: 0;
+  }
+
+  .name p:first-of-type {
+    font-size: .85rem;
+  }
+
+  .name p:last-of-type {
+    font-size: .8rem;
   }
 
   .buyer-quote {
-    font-size: 1rem;
-}
+    font-size: .85rem;
+  }
+
+  .buyer1, .buyer2, .buyer3 {
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
 
 }
