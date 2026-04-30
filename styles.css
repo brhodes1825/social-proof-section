@@ -202,18 +202,18 @@ body {
     height: 50%;
     width: 100%;
     padding: 0;
-    margin-top: 2rem;
+    margin-top: 1rem;
   } 
 
   .top-left p:first-of-type {
-    font-size: 1.125rem;
+    font-size: 1rem;
     margin: 1rem;
     text-align: center;
     width: 100%;
   }
 
   .top-left p:last-of-type {
-    font-size: 1rem;
+    font-size: .85rem;
     margin-bottom: .5rem;
     text-align: center;
     width: 100%;
